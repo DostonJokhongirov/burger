@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: "SairaStencilOne";
+    src: url(../fonts/SairaStencilOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background-color: unset;
+}
+
+input {
+    border: none;
+    outline: unset;
+}
